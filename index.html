@@ -5,115 +5,127 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Кухни</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--############################### HEDER #######################################-->
-    <header>
-      <a href="./index.html">
+    <header class="header">
+      <a class="logo" href="./index.html">
         <img src="./images/header/logo.png" alt="Лого" width="165" height="68"
       /></a>
       <img src="./images/header/tel.png" alt="Лого телефона" width="20" height="20" />
-      <a href="tel: +7 (3466) 68-15-98">+7 (3466) 68-15-98</a>
+      <a class="link header-phone" href="tel: +7 (3466) 68-15-98">+7 (3466) 68-15-98</a>
     </header>
     <main>
       <!--################################ HERO ######################################-->
       <section>
-        <h1>Кухни в Нижневартовске от производителя - <span>недорого и надёжно!</span></h1>
-        <h2>
+        <h1 class="main-title">
+          Кухни в Нижневартовске от производителя -
+          <span class="accent-span">недорого и надёжно!</span>
+        </h1>
+        <h2 class="post-title">
           Изготовим и доставим кухонный гарнитур в Излучинск, Мегион, Стрежевой, Лангепас, Радужный
           и другие города ХМАО
         </h2>
-        <ul>
+        <ul class="list">
           <li>
-            <h3>Рассрочка без переплаты!</h3>
+            <h3 class="list-item">Рассрочка без переплаты!</h3>
           </li>
           <li>
-            <h3>Бесплатный замер и дизайн проект</h3>
+            <h3 class="list-item-transform">Бесплатный замер и дизайн проект</h3>
           </li>
           <li>
-            <h3>Более 500 цветов фасадов</h3>
+            <h3 class="list-item">Более 500 цветов фасадов</h3>
           </li>
           <li>
-            <h3>Соблюдение сроков изготовления</h3>
-            <p>Если не выполним в срок – мы заплатим Вам неустойку</p>
+            <h3 class="list-item">Соблюдение сроков изготовления</h3>
+            <p class="list-item-time">Если не выполним в срок – мы заплатим Вам неустойку</p>
           </li>
           <li>
-            <h3>Пройдите тест из 5 вопросов и получите дизайн проект, и расчет стоимость кухни</h3>
-            <p>+ гарантированный подарок при заказе кухни!</p>
+            <h3 class="list-item-q">
+              Пройдите тест из 5 вопросов и получите дизайн проект, и расчет стоимость кухни
+            </h3>
+            <p class="list-item-price">+ гарантированный подарок при заказе кухни!</p>
           </li>
         </ul>
-        <button type="button">Рассчитать стоимость</button>
+        <button class="btn-price" type="button">Рассчитать стоимость</button>
       </section>
       <!--################################# MAIN #######################################-->
-      <section>
-        <h2>ПОПУЛЯРНЫЕ МОДЕЛИ</h2>
-        <ul>
-          <li>
+      <section class="sec-model">
+        <h2 class="secondary-title">ПОПУЛЯРНЫЕ МОДЕЛИ</h2>
+        <ul class="list">
+          <li class="item-model-back">
             <img
               src="./images/examples/grey-kitchen.jpg"
               alt="серая кухня"
               width="344"
               height="248.44"
             />
-            <h3>Кухонный гарнитур “ЛОФТ”. Длина 2 метра.</h3>
-            <p>19 899</p>
-            <p>14 900</p>
+            <h3 class="item-model">Кухонный гарнитур “ЛОФТ”. Длина 2 метра.</h3>
+            <p class="price">19 899</p>
+            <p class="price-sale">14 900</p>
           </li>
-          <li>
+          <li class="item-model-back">
             <img
               src="./images/examples/white-kitchen.jpg"
               alt="белая кухня"
               width="344"
               height="248.44"
             />
-            <h3>Кухонный гарнитур с фотопечатью “Орхидея”. Длина 2 метра.</h3>
-            <p>19 899</p>
-            <p>14 900</p>
+            <h3 class="item-model">Кухонный гарнитур с фотопечатью “Орхидея”. Длина 2 метра.</h3>
+            <p class="price">19 899</p>
+            <p class="price-sale">14 900</p>
           </li>
-          <li>
+          <li class="item-model-back">
             <img
               src="./images/examples/red-kitchen.jpg"
               alt="красная кухня"
               width="344"
               height="248.44"
             />
-            <h3>Кухонный гарнитур “ЛОФТ”. Длина 2 метра.</h3>
-            <p>19 899</p>
-            <p>14 900</p>
+            <h3 class="item-model">Кухонный гарнитур “ЛОФТ”. Длина 2 метра.</h3>
+            <p class="price">19 899</p>
+            <p class="price-sale">14 900</p>
           </li>
-          <li>
+          <li class="item-model-back">
             <img
               src="./images/examples/blue-kitchen.jpg"
               alt="голубая кухня"
               width="344"
               height="248.44"
             />
-            <h3>Кухонный гарнитур “ЛОФТ”. Длина 2 метра.</h3>
-            <p>19 899</p>
-            <p>14 900</p>
+            <h3 class="item-model">Кухонный гарнитур “ЛОФТ”. Длина 2 метра.</h3>
+            <p class="price">19 899</p>
+            <p class="price-sale">14 900</p>
           </li>
         </ul>
-        <button type="button">Смотреть все товары</button>
+        <button class="model-btn" type="button">Смотреть все товары</button>
       </section>
       <section>
-        <h2>ВЫБОР <span>КУХНИ ПО СТИЛЯМ</span></h2>
-        <p>
+        <h2 class="style-title">ВЫБОР <span class="style-title-span">КУХНИ ПО СТИЛЯМ</span></h2>
+        <p class="style-post-title">
           Красивые, удобные и современные, кухни на заказ помогают создавать атмосферу уюта и
           комфорта в помещении. Вы хотите воплотить в жизнь мечты об удобном гарнитуре? Мы готовы
           вам в этом помочь.
         </p>
-        <ul>
+        <ul class="list list-style">
           Выберите стиль:
-          <li><button type="button">Эконом</button></li>
-          <li><button type="button">Маленькие</button></li>
-          <li><button type="button">Классика</button></li>
-          <li><button type="button">Хай-тек</button></li>
-          <li><button type="button">Скандинавский</button></li>
-          <li><button type="button">Минимализм</button></li>
-          <li><button type="button">Лофт</button></li>
-          <li><button type="button">Прованс</button></li>
+          <li><button class="btn-style" type="button">Эконом</button></li>
+          <li><button class="btn-style" type="button">Маленькие</button></li>
+          <li><button class="btn-style" type="button">Классика</button></li>
+          <li><button class="btn-style" type="button">Хай-тек</button></li>
+          <li><button class="btn-style" type="button">Скандинавский</button></li>
+          <li><button class="btn-style" type="button">Минимализм</button></li>
+          <li><button class="btn-style" type="button">Лофт</button></li>
+          <li><button class="btn-style" type="button">Прованс</button></li>
         </ul>
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="./images/new-exam/white-exam.jpg"
@@ -193,7 +205,7 @@
           <button type="button">Узнать стоимость</button>
         </div>
         <div>
-          <ul>
+          <ul class="list">
             <span>Кухни Микс</span>
             - это :
             <li>
@@ -241,10 +253,10 @@
       </section>
       <section>
         <h2>Фурнитура и <span>материалы</span></h2>
-        <ul>
+        <ul class="list">
           <li>
             <h3>ЛДСП</h3>
-            <ul>
+            <ul class="list">
               <li>- Хорошая устойчивость к температурным перепадам и высокой влажности.</li>
               <li>
                 - Большой выбор различных цветов.Как и в случае с МДФ, у ЛДСП имеется огромное
@@ -261,7 +273,7 @@
           </li>
           <li>
             <h3>Мдф</h3>
-            <ul>
+            <ul class="list">
               <li>
                 - Широкие дизайнерские возможности. Чаще всего МДФ используют как основу, отделывая
                 пластиком, акрилом, различными типами пленок. Это позволяет создать яркие уникальные
@@ -291,7 +303,7 @@
 
           <li>
             <h3 lang="en">фурнитура blum</h3>
-            <ul>
+            <ul class="list">
               <li>
                 - Высококачественная австрийская фурнитура для современной мебели. Фурнитура «Блюм»
                 для кухни позволяет:
@@ -305,7 +317,7 @@
           </li>
           <li>
             <h3 lang="en">фурнитура Hettich</h3>
-            <ul>
+            <ul class="list">
               <li>
                 – это германская фурнитура с идеальным сочетанием интеллектуальных технологий,
                 функциональности и дизайна.
@@ -346,7 +358,7 @@
         </ul>
       </section>
       <section>
-        <ul>
+        <ul class="list">
           <li>
             <h2>Кухни на заказ</h2>
             <p>
@@ -390,7 +402,7 @@
       </section>
       <section>
         <h2>Производство</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="./images/prodaction/standarts.jpg"
@@ -444,37 +456,37 @@
     <!--############################### FOOTER #######################################-->
     <footer>
       <div>
-        <a href="./index.html">
+        <a class="link" href="./index.html">
           <img src="./images/header/logo.png" alt="Лого" width="165" height="68"
         /></a>
-        <address>
-          <a href="https://goo.gl/maps/PbgwygPggBswz2yt5"
+        <address class="address">
+          <a class="link" href="https://goo.gl/maps/PbgwygPggBswz2yt5"
             >г. Нижневартовск, ул. Индустриальная, д.7 стр. 1 ТЦ “ВДНХ”, 2 этаж, бутик № 20а</a
           >
         </address>
       </div>
       <div>
         <nav>
-          <ul>
+          <ul class="list">
             Разделы :
-            <li><a href="">Каталог товаров</a></li>
-            <li><a href="">Кухонные модули</a></li>
-            <li><a href="">Декоры МДФ/Лдсп</a></li>
-            <li><a href="">Готовые решения</a></li>
+            <li><a class="link" href="">Каталог товаров</a></li>
+            <li><a class="link" href="">Кухонные модули</a></li>
+            <li><a class="link" href="">Декоры МДФ/Лдсп</a></li>
+            <li><a class="link" href="">Готовые решения</a></li>
           </ul>
         </nav>
       </div>
       <div>
-        <ul>
+        <ul class="list">
           Контакты :
           <li>
-            <a href="mailto: uhninv@mail.ru">
+            <a class="link" href="mailto: uhninv@mail.ru">
               <img src="./images/contacts/mail-logo.png" alt="лого почты" width="22" height="15" />
               uhninv@mail.ru</a
             >
           </li>
           <li>
-            <a href="tel: 8 (3466) 68-20-15">
+            <a class="link" href="tel: 8 (3466) 68-20-15">
               <img
                 src="./images/contacts/phone-logo.png"
                 alt="лого телефона"
@@ -485,20 +497,20 @@
             >
           </li>
           <li>
-            <a href="tel: 8 (3466) 68-15-98">8 (3466) 68-15-98</a>
+            <a class="link" href="tel: 8 (3466) 68-15-98">8 (3466) 68-15-98</a>
           </li>
         </ul>
       </div>
       <div>
-        <ul>
+        <ul class="list">
           <li>
-            <a href="vk.com/kuhninv">
+            <a class="link" href="vk.com/kuhninv">
               <img src="./images/contacts/vk.png" alt="вконтакте лого" width="21" height="12" />
               vk.com/kuhninv</a
             >
           </li>
           <li>
-            <a href="ok.ru/kuhninv">
+            <a class="link" href="ok.ru/kuhninv">
               <img src="./images/contacts/ok.png" alt="одноклассники лого" width="13" height="22" />
               ok.ru/kuhninv</a
             >
