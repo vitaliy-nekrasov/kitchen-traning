@@ -18,11 +18,14 @@
   --darkgrey-color: #818181;
   --second-lightgrey-color: #f5f5f5;
   --middle-grey-color: #8c8c8c;
+  --two-more-grey-color: #737373;
+  --one-more-grey-color: #b0b0b0;
   --main-dark-color: #000000;
 }
 body {
   font-family: var(--main-font);
   color: var(--main-color);
+  line-height: 1.22;
 }
 /*####################### HEADER ###################*/
 .header {
@@ -39,7 +42,6 @@ body {
 .main-title {
   font-weight: 900;
   font-size: 35px;
-  line-height: 1.22;
 }
 .accent-span {
   color: var(--accent-color);
@@ -47,7 +49,6 @@ body {
 .post-title {
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.22;
 }
 .list-item {
   font-weight: 500;
@@ -62,7 +63,7 @@ body {
 }
 .list-item-time {
   font-size: 15px;
-  line-height: 18px;
+  line-height: 1.2;
 }
 .list-item-q {
   font-weight: 500;
@@ -72,7 +73,7 @@ body {
 }
 .list-item-price {
   font-size: 15px;
-  line-height: 18px;
+  line-height: 1.2;
   text-align: center;
 }
 .btn-price {
@@ -86,6 +87,7 @@ body {
   border-radius: 30px;
 }
 /*####################### MAIN ###################*/
+/*####################### MODEL ###################*/
 .sec-model {
   background: linear-gradient(90deg, #ffe472 0%, #f8cc55 100%, #fbd846 100%);
 }
@@ -122,6 +124,11 @@ body {
 .item-model-back {
   background: var(--light-color);
   box-shadow: 10px 10px 20px rgba(51, 51, 51, 0.05);
+
+  width: 344px;
+  height: 401.33px;
+  left: 30px;
+  top: 1086.33px;
 }
 .model-btn {
   font-weight: 700;
@@ -132,10 +139,10 @@ body {
   box-shadow: 10px 10px 20px rgba(255, 216, 111, 0.4);
   border-radius: 30px;
 }
+/*####################### STYLE ###################*/
 .style-title {
   font-weight: 900;
   font-size: 28px;
-  line-height: 1.21;
   text-align: center;
   text-transform: uppercase;
   color: var(--main-dark-color);
@@ -181,4 +188,212 @@ body {
   border: 1px solid var(--main-color);
   box-sizing: border-box;
   border-radius: 30px;
+}
+/*####################### SKETCH ###################*/
+.sketch {
+  background: var(--second-lightgrey-color);
+  border-radius: 30px;
+}
+.sketch-title {
+  font-weight: 900;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.sketch-price {
+  font-size: 14px;
+  line-height: 1.71;
+  text-transform: uppercase;
+}
+.sketch-contacts {
+  font-size: 18px;
+  color: var(--one-more-grey-color);
+}
+.sketch-photo {
+  font-size: 18px;
+  color: var(--two-more-grey-color);
+}
+.sketch-btn {
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+
+  background: linear-gradient(269.89deg, #fbd846 0.07%, #ffe888 99.89%);
+  box-shadow: 5px 8px 5px rgba(248, 204, 85, 0.1);
+  border-radius: 30px;
+}
+.sketch-calc-price {
+  font-size: 10px;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--two-more-grey-color);
+}
+/*####################### TEST ###################*/
+.test {
+  background: linear-gradient(90deg, #ffe472 0%, #f8cc55 100%, #fbd846 100%);
+}
+.test-title {
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 1.59;
+  text-align: center;
+  text-transform: uppercase;
+}
+.test-title-span {
+  color: var(--accent-color);
+}
+.test-present {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.test-div {
+  background: var(--light-color);
+}
+.test-q {
+  font-weight: 800;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.test-plus-span {
+  color: var(--second-accent-color);
+}
+.test-plus {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-transform: uppercase;
+}
+.test-btn {
+  font-weight: 500;
+  font-size: 18px;
+
+  background: linear-gradient(269.89deg, #f8cc55 0.07%, #ffdd81 99.89%);
+  box-shadow: 0px 4px 4px rgba(248, 204, 85, 0.25);
+  border-radius: 30px;
+}
+.test-div-q {
+  background: var(--light-color);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.mix-span {
+  color: var(--second-accent-color);
+}
+/*####################### MIX ###################*/
+.mix-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  text-transform: uppercase;
+}
+.mix-post-title {
+  font-size: 12px;
+  line-height: 1.25;
+  text-align: center;
+  text-transform: uppercase;
+}
+.mix-card {
+  background: var(--light-color);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+/*####################### MATERIALS ###################*/
+.materials-title {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.25;
+  text-align: center;
+  text-transform: uppercase;
+}
+.materials-title-span {
+  color: var(--accent-color);
+}
+.materials-post-title {
+  font-size: 20px;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+.materials-item {
+  font-size: 12px;
+  line-height: 1.25;
+}
+.materials-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  cursor: pointer;
+
+  background: linear-gradient(269.89deg, #fbd846 0.07%, #ffe888 99.89%);
+  box-shadow: 5px 8px 5px rgba(248, 204, 85, 0.1);
+  border-radius: 30px;
+}
+.materials-btn:hover,
+.materials-btn:focus {
+  background: var(--light-color);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.materials-card {
+  background: var(--light-color);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+/*####################### ABOUT ###################*/
+.about-title {
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 1.07;
+  text-transform: uppercase;
+}
+.about-title-left {
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 1.07;
+  text-align: right;
+  text-transform: uppercase;
+}
+.about-item {
+  font-size: 18px;
+  line-height: 1.67;
+  text-align: justify;
+  color: var(--main-dark-color);
+}
+/*####################### PRODUCTION ###################*/
+.production-title {
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 1.07;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--main-dark-color);
+  background-color: var(--accent-color);
+}
+/*####################### WORKS ###################*/
+.works-title {
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 1.07;
+  text-align: center;
+  text-transform: uppercase;
+}
+.works {
+  background-color: var(--accent-color);
+}
+/*####################### FOOTER ###################*/
+.footer {
+  background-color: var(--main-color);
+}
+
+.footer-list {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--darkgrey-color);
+}
+.footer-contacts {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--light-color);
 }

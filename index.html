@@ -20,7 +20,7 @@
         <img src="./images/header/logo.png" alt="Лого" width="165" height="68"
       /></a>
       <img src="./images/header/tel.png" alt="Лого телефона" width="20" height="20" />
-      <a class="link header-phone" href="tel: +7 (3466) 68-15-98">+7 (3466) 68-15-98</a>
+      <a class="link header-phone" href="tel:+7(3466)68-15-98">+7 (3466) 68-15-98</a>
     </header>
     <main>
       <!--################################ HERO ######################################-->
@@ -57,6 +57,7 @@
         <button class="btn-price" type="button">Рассчитать стоимость</button>
       </section>
       <!--################################# MAIN #######################################-->
+      <!--################################ MODEL ######################################-->
       <section class="sec-model">
         <h2 class="secondary-title">ПОПУЛЯРНЫЕ МОДЕЛИ</h2>
         <ul class="list">
@@ -65,7 +66,7 @@
               src="./images/examples/grey-kitchen.jpg"
               alt="серая кухня"
               width="344"
-              height="248.44"
+              height="248"
             />
             <h3 class="item-model">Кухонный гарнитур “ЛОФТ”. Длина 2 метра.</h3>
             <p class="price">19 899</p>
@@ -76,7 +77,7 @@
               src="./images/examples/white-kitchen.jpg"
               alt="белая кухня"
               width="344"
-              height="248.44"
+              height="248"
             />
             <h3 class="item-model">Кухонный гарнитур с фотопечатью “Орхидея”. Длина 2 метра.</h3>
             <p class="price">19 899</p>
@@ -87,7 +88,7 @@
               src="./images/examples/red-kitchen.jpg"
               alt="красная кухня"
               width="344"
-              height="248.44"
+              height="248"
             />
             <h3 class="item-model">Кухонный гарнитур “ЛОФТ”. Длина 2 метра.</h3>
             <p class="price">19 899</p>
@@ -98,7 +99,7 @@
               src="./images/examples/blue-kitchen.jpg"
               alt="голубая кухня"
               width="344"
-              height="248.44"
+              height="248"
             />
             <h3 class="item-model">Кухонный гарнитур “ЛОФТ”. Длина 2 метра.</h3>
             <p class="price">19 899</p>
@@ -107,6 +108,7 @@
         </ul>
         <button class="model-btn" type="button">Смотреть все товары</button>
       </section>
+      <!--################################ STYLE ######################################-->
       <section>
         <h2 class="style-title">ВЫБОР <span class="style-title-span">КУХНИ ПО СТИЛЯМ</span></h2>
         <p class="style-post-title">
@@ -114,8 +116,8 @@
           комфорта в помещении. Вы хотите воплотить в жизнь мечты об удобном гарнитуре? Мы готовы
           вам в этом помочь.
         </p>
-        <ul class="list list-style">
-          Выберите стиль:
+        <p class="list-style">Выберите стиль:</p>
+        <ul class="list">
           <li><button class="btn-style" type="button">Эконом</button></li>
           <li><button class="btn-style" type="button">Маленькие</button></li>
           <li><button class="btn-style" type="button">Классика</button></li>
@@ -131,7 +133,7 @@
               src="./images/new-exam/white-exam.jpg"
               alt="Белый пример"
               width="344"
-              height="248.44"
+              height="248"
             />
           </li>
           <li>
@@ -139,7 +141,7 @@
               src="./images/new-exam/black-exam.jpg"
               alt="Черный пример"
               width="344"
-              height="248.44"
+              height="248"
             />
           </li>
           <li>
@@ -147,7 +149,7 @@
               src="./images/new-exam/light-exam.jpg"
               alt="Светлый пример"
               width="344"
-              height="248.44"
+              height="248"
             />
           </li>
           <li>
@@ -155,22 +157,25 @@
               src="./images/new-exam/brick-exam.jpg"
               alt="Кирпичный пример"
               width="344"
-              height="248.44"
+              height="248"
             />
           </li>
         </ul>
         <button class="btn-style-more" type="button">Показать еще</button>
       </section>
-      <section>
-        <h2>
+      <!--################################ SKETCH ######################################-->
+      <section class="sketch">
+        <h2 class="sketch-title">
           Есть замер или эскиз кухни, или просто нашли фото кухни в интернете которая Вам нравится?
         </h2>
-        <p>Отправьте его нам и мы посчитаем стоимость с учетом Ваших пожеланий!</p>
+        <p class="sketch-price">
+          Отправьте его нам и мы посчитаем стоимость с учетом Ваших пожеланий!
+        </p>
         <div>
-          <p>Ваше имя</p>
-          <p>+7(_ _ _) _ _ _-_ _ - _ _</p>
-          <p>Вы можете приложить эскиз или фото</p>
-          <button type="button">Рассчитать стоимость</button>
+          <p class="sketch-contacts">Ваше имя</p>
+          <p class="sketch-contacts">+7(_ _ _) _ _ _-_ _ - _ _</p>
+          <p class="sketch-photo">Вы можете приложить эскиз или фото</p>
+          <button class="sketch-btn" type="button">Рассчитать стоимость</button>
         </div>
         <div>
           <img
@@ -179,84 +184,92 @@
             width="279"
             height="213"
           />
-          <p>
+          <p class="sketch-calc-price">
             Нажимая кнопку “Рассчитать стоимость”, вы соглашаетесь с условиями Политики
             конфиденциальности
           </p>
         </div>
       </section>
-      <section>
-        <div>
-          <h2>
-            Пройдите тест за 1 минуту и <span>узнайте стоимость</span> вашей будущей кухни прямо
-            сейчас
+      <!--################################ TEST ######################################-->
+      <section class="test">
+        <div class="test-div">
+          <h2 class="test-title">
+            Пройдите тест за 1 минуту и <span class="test-title-span">узнайте стоимость</span> вашей
+            будущей кухни прямо сейчас
           </h2>
-          <h3>И получите один из подарков при заказе кухни</h3>
+          <h3 class="test-present">И получите один из подарков при заказе кухни</h3>
         </div>
-        <div>
+        <div class="test-div-q">
           <img
             src="./images/kitchen-price/kitchen-price.jpg"
             alt="Черная кухня"
             width="354"
             height="421"
           />
-          <h2>Ответьте на 5 вопросов и получите дизайн проект и расчет стоимость кухни</h2>
-          <h3><span>+</span> гарантированный подарок при заказе кухни!</h3>
-          <button type="button">Узнать стоимость</button>
+          <h2 class="test-q">
+            Ответьте на 5 вопросов и получите дизайн проект и расчет стоимость кухни
+          </h2>
+          <h3 class="test-plus">
+            <span class="test-plus-span">+</span> гарантированный подарок при заказе кухни!
+          </h3>
+          <button class="test-btn" type="button">Узнать стоимость</button>
         </div>
         <div>
+          <h3 class="secondary-title"><span class="mix-span">Кухни Микс</span> - это :</h3>
+          <!--################################ MIX ######################################-->
           <ul class="list">
-            <span>Кухни Микс</span>
-            - это :
-            <li>
+            <li class="mix-card">
               <img
                 src="./images/kitchen-price/price-logo.png"
                 alt="Лого с деньгами"
                 width="69"
                 height="69"
               />
-              <h3>рассрочка без переплаты</h3>
-              <p>Мы не делаем наценок. Наши цены заморожены с 2015 года</p>
+              <h3 class="mix-title">рассрочка без переплаты</h3>
+              <p class="mix-post-title">Мы не делаем наценок. Наши цены заморожены с 2015 года</p>
             </li>
-            <li>
+            <li class="mix-card">
               <img
                 src="./images/kitchen-price/sale-logo.png"
                 alt="Лого со скидкой"
                 width="74"
                 height="74"
               />
-              <h3>СКИДКИ</h3>
-              <p>При заказе кухни матовая столешница 26 мм - в подарок!</p>
+              <h3 class="mix-title">СКИДКИ</h3>
+              <p class="mix-post-title">При заказе кухни матовая столешница 26 мм - в подарок!</p>
             </li>
-            <li>
+            <li class="mix-card">
               <img
                 src="./images/kitchen-price/kitchen-logo.png"
                 alt="Лого со шкафом"
                 width="63"
                 height="63"
               />
-              <h3>БОЛЕЕ 500 ЦВЕТОВ ФАСАДОВ</h3>
-              <p>Цветовые решения на любой вкус</p>
+              <h3 class="mix-title">БОЛЕЕ 500 ЦВЕТОВ ФАСАДОВ</h3>
+              <p class="mix-post-title">Цветовые решения на любой вкус</p>
             </li>
-            <li>
+            <li class="mix-card">
               <img
                 src="./images/kitchen-price/size-logo.png"
                 alt="Лого замера"
                 width="70"
                 height="70"
               />
-              <h3>БЕСПЛАТНЫЙ ЗАМЕР И ДИЗАЙН ПРОЕКТ</h3>
-              <p>Бесплатный дизайн проект кухни за 1 день</p>
+              <h3 class="mix-title">БЕСПЛАТНЫЙ ЗАМЕР И ДИЗАЙН ПРОЕКТ</h3>
+              <p class="mix-post-title">Бесплатный дизайн проект кухни за 1 день</p>
             </li>
           </ul>
         </div>
       </section>
+      <!--################################ MATERIALS ######################################-->
       <section>
-        <h2>Фурнитура и <span>материалы</span></h2>
+        <h2 class="materials-title">
+          Фурнитура и <span class="materials-title-span">материалы</span>
+        </h2>
         <ul class="list">
-          <li>
-            <h3>ЛДСП</h3>
-            <ul class="list">
+          <li class="materials-card">
+            <h3 class="materials-post-title">ЛДСП</h3>
+            <ul class="list materials-item">
               <li>- Хорошая устойчивость к температурным перепадам и высокой влажности.</li>
               <li>
                 - Большой выбор различных цветов.Как и в случае с МДФ, у ЛДСП имеется огромное
@@ -269,11 +282,11 @@
               </li>
             </ul>
             <img src="./images/material/ldsp.jpg" alt="ЛДСП" width="130" height="115" />
-            <button type="button">Рассчитать стоимость</button>
+            <button class="materials-btn" type="button">Рассчитать стоимость</button>
           </li>
-          <li>
-            <h3>Мдф</h3>
-            <ul class="list">
+          <li class="materials-card">
+            <h3 class="materials-posttitle">Мдф</h3>
+            <ul class="list materials-item">
               <li>
                 - Широкие дизайнерские возможности. Чаще всего МДФ используют как основу, отделывая
                 пластиком, акрилом, различными типами пленок. Это позволяет создать яркие уникальные
@@ -287,23 +300,23 @@
               </li>
             </ul>
             <img src="./images/material/mdf.jpg" alt="МДФ" width="155" height="115" />
-            <button type="button">Рассчитать стоимость</button>
+            <button class="materials-btn" type="button">Рассчитать стоимость</button>
           </li>
-          <li>
-            <h3>Эмаль</h3>
-            <p>
+          <li class="materials-card">
+            <h3 class="materials-posttitle">Эмаль</h3>
+            <p class="materials-item">
               Все больше у покупателей становятся популярными, кухни с крашенными фасадами. Крашеные
               кухонные фасады изготавливают из МДФ, поверхность, которой покрывается эмалью.
               Специальная краска и финишный слой лака обеспечивают надежную защиту от влаги,
               загрязнений, температурных колебаний в определенных
             </p>
             <img src="./images/material/emal.jpg" alt="Эмаль" width="113" height="113" />
-            <button type="button">Рассчитать стоимость</button>
+            <button class="materials-btn" type="button">Рассчитать стоимость</button>
           </li>
 
-          <li>
-            <h3 lang="en">фурнитура blum</h3>
-            <ul class="list">
+          <li class="materials-card">
+            <h3 class="materials-posttitle" lang="en">фурнитура blum</h3>
+            <ul class="list materials-item">
               <li>
                 - Высококачественная австрийская фурнитура для современной мебели. Фурнитура «Блюм»
                 для кухни позволяет:
@@ -313,11 +326,11 @@
               <li>- реализовывать любые дизайнерские задумки.</li>
             </ul>
             <img src="./images/material/blum.jpg" alt="blum" width="139" height="39" />
-            <button type="button">Рассчитать стоимость</button>
+            <button class="materials-btn" type="button">Рассчитать стоимость</button>
           </li>
-          <li>
-            <h3 lang="en">фурнитура Hettich</h3>
-            <ul class="list">
+          <li class="materials-card">
+            <h3 class="materials-posttitle" lang="en">фурнитура Hettich</h3>
+            <ul class="list materials-item">
               <li>
                 – это германская фурнитура с идеальным сочетанием интеллектуальных технологий,
                 функциональности и дизайна.
@@ -334,15 +347,15 @@
               width="114"
               height="70"
             />
-            <button type="button">Рассчитать стоимость</button>
+            <button class="materials-btn" type="button">Рассчитать стоимость</button>
           </li>
-          <li>
-            <h3>фурнитура BOYARD</h3>
-            <p>
+          <li class="materials-card">
+            <h3 class="materials-posttitle">фурнитура BOYARD</h3>
+            <p class="materials-item">
               Передовые технологические разработки, позволяющие выпускать качественные изделия по
               доступной цене.
             </p>
-            <p>
+            <p class="materials-item">
               Производство продукции в соответствии с международными стандартами качества. Широкий
               ассортимент актуальной фурнитуры для мебели и интерьеров различных стилевых
               направлений, разнообразные по формам, размерам, типу покрытий и назначению.
@@ -353,15 +366,16 @@
               width="133"
               height="33"
             />
-            <button type="button">Рассчитать стоимость</button>
+            <button class="materials-btn" type="button">Рассчитать стоимость</button>
           </li>
         </ul>
       </section>
+      <!--################################ ABOUT ######################################-->
       <section>
         <ul class="list">
           <li>
-            <h2>Кухни на заказ</h2>
-            <p>
+            <h2 class="about-title">Кухни на заказ</h2>
+            <p class="about-item">
               Красивые, удобные и современные, кухни на заказ помогают создавать атмосферу уюта и
               комфорта в помещении. Вы хотите воплотить в жизнь мечты об удобном гарнитуре? Мы
               готовы вам в этом помочь. Наша компания успешно работает в Нижневартовске с 2015 года.
@@ -375,8 +389,8 @@
             </p>
           </li>
           <li>
-            <h2>Условия доставки и сборки</h2>
-            <p>
+            <h2 class="about-title-left">Условия доставки и сборки</h2>
+            <p class="about-item">
               При покупке кухни под заказ, вы получаете не только цену от производителя, но и
               доставку, а также профессиональную сборку и установку гарнитура в интерьере. Доставка
               и сборка оплачиваются отдельно, стоимость зависит от удаленности и сложности сборки.
@@ -388,8 +402,8 @@
             </p>
           </li>
           <li>
-            <h2>Конструктор кухни онлайн</h2>
-            <p>
+            <h2 class="about-title">Конструктор кухни онлайн</h2>
+            <p class="about-item">
               Официальный сайт компании «Кухни Микс» предлагает создание онлайн-визуализации вашего
               будущего гарнитура. Выбирайте оптимальную комплектацию, размеры и другие параметры, не
               выходя из дома. Настраивайте цветовую гамму, расположение элементов, тип и орнамент
@@ -400,8 +414,9 @@
           </li>
         </ul>
       </section>
+      <!--################################ PRODUCTION ######################################-->
       <section>
-        <h2>Производство</h2>
+        <h2 class="production-title">Производство</h2>
         <ul class="list">
           <li>
             <img
@@ -437,8 +452,9 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Наши <span>работы</span></h2>
+      <!--################################ WORKS ######################################-->
+      <section class="works">
+        <h2 class="works-title">Наши <span>работы</span></h2>
         <img
           src="./images/our-works/blue-kitchen.jpg"
           alt="голубая кухня"
@@ -454,39 +470,39 @@
       </section>
     </main>
     <!--############################### FOOTER #######################################-->
-    <footer>
+    <footer class="footer">
       <div>
         <a class="link" href="./index.html">
           <img src="./images/header/logo.png" alt="Лого" width="165" height="68"
         /></a>
         <address class="address">
-          <a class="link" href="https://goo.gl/maps/PbgwygPggBswz2yt5"
+          <a class="link footer-contacts" href="https://goo.gl/maps/PbgwygPggBswz2yt5"
             >г. Нижневартовск, ул. Индустриальная, д.7 стр. 1 ТЦ “ВДНХ”, 2 этаж, бутик № 20а</a
           >
         </address>
       </div>
       <div>
         <nav>
+          <h2 class="footer-list">Разделы :</h2>
           <ul class="list">
-            Разделы :
-            <li><a class="link" href="">Каталог товаров</a></li>
-            <li><a class="link" href="">Кухонные модули</a></li>
-            <li><a class="link" href="">Декоры МДФ/Лдсп</a></li>
-            <li><a class="link" href="">Готовые решения</a></li>
+            <li><a class="link footer-contacts" href="">Каталог товаров</a></li>
+            <li><a class="link footer-contacts" href="">Кухонные модули</a></li>
+            <li><a class="link footer-contacts" href="">Декоры МДФ/Лдсп</a></li>
+            <li><a class="link footer-contacts" href="">Готовые решения</a></li>
           </ul>
         </nav>
       </div>
       <div>
+        <h2 class="footer-list">Контакты :</h2>
         <ul class="list">
-          Контакты :
           <li>
-            <a class="link" href="mailto: uhninv@mail.ru">
+            <a class="link footer-contacts" href="mailto:uhninv@mail.ru">
               <img src="./images/contacts/mail-logo.png" alt="лого почты" width="22" height="15" />
               uhninv@mail.ru</a
             >
           </li>
           <li>
-            <a class="link" href="tel: 8 (3466) 68-20-15">
+            <a class="link footer-contacts" href="tel:8(3466)68-20-15">
               <img
                 src="./images/contacts/phone-logo.png"
                 alt="лого телефона"
@@ -497,20 +513,20 @@
             >
           </li>
           <li>
-            <a class="link" href="tel: 8 (3466) 68-15-98">8 (3466) 68-15-98</a>
+            <a class="link footer-contacts" href="tel:8(3466)68-15-98">8 (3466) 68-15-98</a>
           </li>
         </ul>
       </div>
       <div>
         <ul class="list">
           <li>
-            <a class="link" href="vk.com/kuhninv">
+            <a class="link footer-contacts" href="vk.com/kuhninv">
               <img src="./images/contacts/vk.png" alt="вконтакте лого" width="21" height="12" />
               vk.com/kuhninv</a
             >
           </li>
           <li>
-            <a class="link" href="ok.ru/kuhninv">
+            <a class="link footer-contacts" href="ok.ru/kuhninv">
               <img src="./images/contacts/ok.png" alt="одноклассники лого" width="13" height="22" />
               ok.ru/kuhninv</a
             >
