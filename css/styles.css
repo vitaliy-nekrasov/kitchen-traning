@@ -397,3 +397,32 @@ body {
   line-height: 20px;
   color: var(--light-color);
 }
+/* ###########LOGO########### */
+.qqq {
+  color: tomato;
+}
+.www {
+  --icon-color: currentColor;
+}
+
+:root {
+  --primary: burlywood;
+  --accent: cadetblue;
+}
+.items {
+  list-style: none;
+  display: flex;
+}
+.icon {
+  background-color: var(--primary);
+  color: var(--accent);
+}
+.icon {
+  --icon-color: currentColor;
+}
+.item:hover {
+  --color2: green;
+  --color1: purple;
+  /* background-color: var(--accent);
+  color: var(--primary); */
+}
