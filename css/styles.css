@@ -398,31 +398,31 @@ body {
   color: var(--light-color);
 }
 /* ###########LOGO########### */
-.qqq {
-  color: tomato;
-}
-.www {
-  --icon-color: currentColor;
-}
-
-:root {
-  --primary: burlywood;
-  --accent: cadetblue;
-}
 .items {
-  list-style: none;
   display: flex;
+  justify-content: center;
+}
+.item {
+  list-style: none;
 }
 .icon {
-  background-color: var(--primary);
-  color: var(--accent);
+  fill: grey;
+  width: 22px;
+  height: 22px;
 }
-.icon {
-  --icon-color: currentColor;
+.btn {
+  width: 44px;
+  height: 44px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 0;
+  border: none;
 }
-.item:hover {
-  --color2: green;
-  --color1: purple;
-  /* background-color: var(--accent);
-  color: var(--primary); */
+.btn:hover {
+  fill: white;
+  background-color: aqua;
+}
+.icon:hover {
+  fill: white;
+  background-color: aqua;
 }
