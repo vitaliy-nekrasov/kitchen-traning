@@ -1,0 +1,82 @@
+h1 {
+  margin: 0;
+}
+h2 {
+  margin: 0;
+}
+body {
+  padding: 0;
+}
+.header {
+  position: relative;
+  padding-left: 20px;
+  height: 1035px;
+  background-image: url(./images/bg/bg.png);
+}
+.nav {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.logo {
+  margin-right: 160px;
+}
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.menu__item {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2e2520;
+}
+.menu__item:not(:last-child) {
+  margin-right: 20px;
+}
+.title {
+  font-family: 'Caveat Brush';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 65px;
+  color: #2e2520;
+  margin-bottom: 15px;
+}
+.subtitle {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #2e2520;
+  margin-bottom: 32px;
+}
+.button {
+  font-family: 'Caveat Brush';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+  padding: 8px 44px;
+  background: #ab816c;
+  border-radius: 25px;
+  border: transparent;
+  cursor: pointer;
+}
+.img-1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.img-2 {
+  position: absolute;
+  left: 0;
+  top: 501px;
+}
