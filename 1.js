@@ -1,23 +1,19 @@
-// Change code below this line
-function findMatches(...rest) {
-  const matches = []; // Don't change this line
-  let mass = [...rest];
-  console.log(...mass[0]);
-  for (const number of rest) {
-    console.log(number);
+const atTheOldToad = {
+  potions: [
+    { name: 'Speed potion', price: 460 },
+    { name: 'Dragon breath', price: 780 },
+    { name: 'Stone skin', price: 520 },
+  ],
+  updatePotionName(oldName, newName) {
+    for (let i = 0; i < this.potions.length; i += 1) {
+      const name = this.potions[i];
 
-    // const copyOfNumber = [...number];
-    // console.log(copyOfNumber);
+      if (oldName === name.name) {
+        name.name = newName;
+      }
+      console.log(name);
+    }
+  },
+};
 
-    // for (const numb of copyOfNumber) {
-    //   console.log(numb);
-    // }
-  }
-
-  // let numbers = [...number];
-  // console.log(numbers);
-
-  // Change code above this line
-  return matches;
-}
-findMatches([1, 2, 3, 4, 5], 1, 8, 2, 7);
+atTheOldToad.updatePotionName('Dragon breath', 'Polymorth');
