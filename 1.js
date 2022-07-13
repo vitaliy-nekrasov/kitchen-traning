@@ -1,19 +1,22 @@
-const atTheOldToad = {
-  potions: [
-    { name: 'Speed potion', price: 460 },
-    { name: 'Dragon breath', price: 780 },
-    { name: 'Stone skin', price: 520 },
-  ],
-  updatePotionName(oldName, newName) {
-    for (let i = 0; i < this.potions.length; i += 1) {
-      const name = this.potions[i];
+function calculateTotalPrice(orderedItems) {
+  let totalPrice = 0;
+  // Change code below this line
 
-      if (oldName === name.name) {
-        name.name = newName;
-      }
-      console.log(name);
-    }
-  },
-};
+  orderedItems.forEach(function (number)) {
+    console.log(number);
+  }
+    
 
-atTheOldToad.updatePotionName('Dragon breath', 'Polymorth');
+  // Change code above this line
+  return totalPrice;
+}
+
+calculateTotalPrice([12, 85, 37, 4])
+
+
+
+
+const numbers = [5, 10, 15, 20, 25];
+numbers.forEach(function (number, index) {
+  console.log(number);
+});
