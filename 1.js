@@ -1,4 +1,4 @@
-const arrayOfUsers = [
+const users = [
   {
     name: 'Moore Hensley',
     email: 'moorehensley@indexia.com',
@@ -7,7 +7,6 @@ const arrayOfUsers = [
     isActive: false,
     balance: 2811,
     gender: 'male',
-    age: 37,
   },
   {
     name: 'Sharlene Bush',
@@ -17,7 +16,6 @@ const arrayOfUsers = [
     isActive: true,
     balance: 3821,
     gender: 'female',
-    age: 34,
   },
   {
     name: 'Ross Vazquez',
@@ -27,7 +25,6 @@ const arrayOfUsers = [
     isActive: false,
     balance: 3793,
     gender: 'male',
-    age: 24,
   },
   {
     name: 'Elma Head',
@@ -37,27 +34,24 @@ const arrayOfUsers = [
     isActive: true,
     balance: 2278,
     gender: 'female',
-    age: 21,
   },
   {
     name: 'Carey Barr',
     email: 'careybarr@nurali.com',
     eyeColor: 'blue',
-    friends: ['Jordan Sampson', 'Eddie Strong'],
+    friends: ['Jordan Sampson', 'Eddie Strong', 'Adrian Cross'],
     isActive: true,
     balance: 3951,
     gender: 'male',
-    age: 27,
   },
   {
     name: 'Blackburn Dotson',
     email: 'blackburndotson@furnigeer.com',
     eyeColor: 'brown',
-    friends: ['Jacklyn Lucas', 'Linda Chapman'],
+    friends: ['Jacklyn Lucas', 'Linda Chapman', 'Adrian Cross', 'Solomon Fokes'],
     isActive: false,
     balance: 1498,
     gender: 'male',
-    age: 38,
   },
   {
     name: 'Sheree Anthony',
@@ -67,19 +61,12 @@ const arrayOfUsers = [
     isActive: true,
     balance: 2764,
     gender: 'female',
-    age: 39,
   },
 ];
+
 // Change code below this line
-const getFriends = users =>
-  users.flatMap(user => user.friends).filter((user, index, array) => array.indexOf(user) === index);
-
+const getTotalBalanceByGender = (users, gender) =>
+  users.filter(user => user.gender === gender).reduce((total, user) => total + user.balance, 0);
 // Change code above this line
-console.log(getFriends(arrayOfUsers));
 
-// const getFriends = users => {
-//   const allUsers = users.flatMap(user => user.friends);
-//   console.log(allUsers);
-//   const uniqueUsers = allUsers.filter((user, index, array) => array.indexOf(user) === index);
-//   console.log(uniqueUsers);
-// };
+console.table(getTotalBalanceByGender(users, 'male'));
